@@ -35,7 +35,7 @@ export default function Countdown() {
         Our Story
       </p>
       <h1 style={{ fontFamily: 'var(--font-playfair), serif', fontSize: 32, color: '#fff', margin: '0 0 4px' }}>
-        30 Months 🤍
+        10 Months 🤍
       </h1>
       <p style={{ fontSize: 13, color: 'rgba(255,255,255,0.3)', marginBottom: 16 }}>
         Monthsarry · April 30, 2026
@@ -49,7 +49,7 @@ export default function Countdown() {
           { val: pad(time.h), label: 'Hours' },
           { val: pad(time.m), label: 'Mins' },
           { val: pad(time.s), label: 'Secs' },
-          { val: '30',        label: 'Months' },
+          { val: '10',        label: 'Months' },
         ].map(({ val, label }) => (
           <div key={label} style={{ background: 'rgba(255,255,255,0.04)', border: '0.5px solid rgba(255,255,255,0.08)', borderRadius: 12, padding: '10px 4px' }}>
             <div style={{ fontFamily: 'var(--font-playfair), serif', fontSize: 22, color: '#e8a0b0' }}>{val}</div>

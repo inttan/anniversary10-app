@@ -17,7 +17,7 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: 'I & P 🌸',
-  description: 'Our 30 months anniversary',
+  description: 'Our 10 months anniversary',
 }
 
 export default function RootLayout({

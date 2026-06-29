@@ -1,37 +1,44 @@
-import Countdown    from '@/components/Countdown'
-import DrakePlayer  from '@/components/DrakePlayer'
-import FutureLetter from '@/components/FutureLetter'
-import TaskList     from '@/components/TaskList'
+// app/page.tsx — Anniversary 1 Year
+// Changes from v1 (10 months):
+//   - DrakePlayer removed (replaced by MonthTimeline)
+//   - Countdown updated to April 30, 2027
+//   - FutureLetter unlock date updated to April 30, 2027
+//   - Color scheme shifted: pink → purple/lavender
+
+import Countdown      from '@/components/Countdown'
+import MonthTimeline  from '@/components/MonthTimeline'
+import TaskList       from '@/components/TaskList'
+import FutureLetter   from '@/components/FutureLetter'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#0a0a0f] px-4 py-8 max-w-md mx-auto">
+    <main className="min-h-screen bg-[#080510] px-4 py-8 max-w-md mx-auto">
 
-      {/* Hero countdown */}
+      {/* Hero countdown — updated to 1 year */}
       <Countdown />
 
-      {/* Sentiment + Drake */}
-      <p className="text-[10px] tracking-widest text-white/25 uppercase mb-3 mt-7">
-        How's she feeling today?
+      {/* 12-month journey timeline — replaces DrakePlayer */}
+      <p className="text-[10px] tracking-widest text-white/20 uppercase mb-3 mt-7">
+        12 months of us
       </p>
-      <DrakePlayer />
+      <MonthTimeline />
 
-      {/* Tasks */}
-      <p className="text-[10px] tracking-widest text-white/25 uppercase mb-3 mt-7">
-        Today's Love Tasks
+      {/* Love tasks */}
+      <p className="text-[10px] tracking-widest text-white/20 uppercase mb-3 mt-7">
+        Anniversary tasks
       </p>
       <TaskList />
 
-      {/* Future Letter */}
-      <p className="text-[10px] tracking-widest text-white/25 uppercase mb-3 mt-7">
-        Letter to Future Us
+      {/* Future Letter — unlock 2027 */}
+      <p className="text-[10px] tracking-widest text-white/20 uppercase mb-3 mt-7">
+        Letter to future us
       </p>
       <FutureLetter />
 
       {/* Footer */}
       <div className="text-center mt-10 mb-4">
-        <p className="text-[10px] text-white/15 tracking-widest">
-          Made with love · I & P 🌸
+        <p className="text-[10px] text-white/10 tracking-widest">
+          I & P · Year 01 🌸
         </p>
       </div>
 

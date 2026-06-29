@@ -45,7 +45,7 @@ export default function Countdown() {
         1 Year Together 🤍
       </h1>
       <p style={{ fontSize: 13, color: 'rgba(192,132,252,0.35)', marginBottom: 16 }}>
-        Anniversary · April 30, 2027
+        Anniversary · June 30, 2026
       </p>
 
       <div style={{

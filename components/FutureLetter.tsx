@@ -207,7 +207,7 @@ export default function FutureLetter() {
                 fontSize: 9, letterSpacing: '0.16em', color: 'rgba(160,60,100,0.4)',
                 textTransform: 'uppercase', marginBottom: 8,
               }}>
-                April 30, 2027 · 1 Year Together
+                June, 2026 · 1 Year Together
               </p>
               <h2 style={{
                 fontFamily: 'var(--font-playfair), serif', fontStyle: 'italic',

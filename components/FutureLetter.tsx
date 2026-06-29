@@ -44,7 +44,7 @@ export default function FutureLetter() {
   useEffect(() => {
     if (!letter) return
     // Updated unlock date: 1 year anniversary
-    const unlock = new Date('2020-06-30T00:00:00')
+    const unlock = new Date('2026-06-30T00:00:00')
 
     const tick = () => {
       const diff = unlock.getTime() - Date.now()
